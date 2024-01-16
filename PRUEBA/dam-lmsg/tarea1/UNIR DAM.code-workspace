@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"name": "Unir-DAM",
+			"path": "../../../Unir-DAM"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "UNIR DAM - Mi Codigo"
+	}
+}

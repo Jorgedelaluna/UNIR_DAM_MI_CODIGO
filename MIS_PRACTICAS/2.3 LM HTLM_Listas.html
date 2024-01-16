@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LM HTML_Listas</title>
+    </head>
+    
+    <body>
+<!--
+#Uso de Listas en los documentos HTML5#
+
+Existen tres tipos de listas:
+    ▪ Listas ordenadas (<ol>...</ol>) -> Ordered List
+    ▪ Listas no ordenadas (<url>...</url>) -> Unordered List
+    ▪ Listas de definición (<dl>...</dl>) -> Definition List
+
+Dentro de un elemento de lista se puede insertar cualquier otro elemento (texto,
+imágenes, divisiones, tablas, listas, etc)
+
+#Listas Ordenadas y No Ordenadas#
+
+La estructura de las listas ordenadas (<ol>) como las de las listas desordenadas (<ul>), es
+la misma.
+    ▪ Las etiquetas <ul> ...</ul> o <ol> ...</ol> delimitan la lista completa
+    ▪ Las etiquetas <li> ...</li> → (Lis Item) delimitan cada elemento de la lista
+-->
+    <ol>
+        <li>punto uno</li>
+        <li>punto dos</li>
+        <li>punto tres</li>
+    </ol>
+
+    <ul>
+        <li>punto uno</li>
+        <li>punto dos</li>
+        <li>punto tres</li>
+    </ul>
+    
+<!--
+La diferencia entre ambos tipos de listas es que los navegadores numeran (con letras o
+números) los elementos de las listas ordenadas, mientras que en las listas no ordenadas se
+dibuja un símbolo gráfico.
+
+Utilizaremos el atributo type=“x” para indicar que elemento se numera u ordena, y el
+atributo start=“x” indica el valor numérico para empezar. También podemos usar
+type=“forma”:
+
+✓ A (mayúsculas)
+✓ a (minúsculas)
+✓ I (cifras romanas mayúsculas)
+✓ i (cifras romanas minúsculas)
+✓ 1 (para números, predeterminado)
+✓ disc → Viñeta redonda rellena
+✓ circle → Viñeta redonda hueca
+✓ square → Viñeta cuadrada
+-->
+<ul type="square">
+    <li>Fedora</li>
+    <li>RedHAt</li>
+    <li>Ubuntu</li>
+    <li>Suse</li>
+</ul>
+
+<ol start="4" type="A" >
+    <li>Fedora</li>
+    <li>RedHat</li>
+    <li>Ubuntu</li>
+    <li>Suse</li>
+</ol>
+
+<!--
+#Listas de Definición#
+
+▪ Las listas de definición tienen una estructura distinta:
+✓ Las etiquetas <dl> ...</dl> → Description List delimitan la lista completa
+✓ Las etiquetas <dt> ...</dt> → Description Term delimitan los términos
+✓ Las etiquetas <dd> ...</dd> → Definition Description delimitan las definiciones
+-->
+<dl>
+    <dt>dl</dt>
+        <dd>Crea la caja que contiene los items de la lista.</dd>
+    <dt>dt</dt>
+        <dd>Item que contiene un término a definir.</dd>
+    <dt>dd</dt>
+        <dd>Item que contiene una definición.</dd>
+</dl>
+
+<!--
+Las etiquetas <dt> y <dd> pueden encontrarse en cualquier orden dentro de un lista de
+definición, aunque lo razonable es que aparezcan cada <dt> seguido por uno o varios <dd>
+-->
+<dl>
+    <dt>Corredores
+        <dd>Alonso
+        <dd>Sainz
+        <dd>Raikkonen
+        <dd>Vettel
+        <dd>Hamilton
+        <dd>Grosjean
+    <dt>Marcas
+        <dd>McLaren Honda
+        <dd>Toro Rosso
+        <dd>Ferrari
+        <dd>Mercedes
+        <dd>Hass F1 Team
+</dl>
+
+    </body>
+    </html></header>
