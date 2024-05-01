@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Libreria iconos web https://ionic.io -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <link src="https://fontawesome.com/start">
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="shortcut icon" href="./img/favicon-AI.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Contacto</title>
+</head>
+<body>
+<section>
+    <header>
+            <a href="index.html" class="logo">JORGE DE LA LUNA MESA</a>
+            <ul class="navbar">
+                <li>
+                    <a href="quiensoy.html">Quién soy</a>
+                </li>
+                </li>
+                <li>
+                    <a href="cv.html">CV</a>
+                </li>
+                <li>
+                    <a href="proyectos.html">Proyectos</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+    </header>
+    <section class="contacto">
+        <div class="contacto-titulo">
+            <h1>Contacto</h1>
+        </div>
+        <section class="contacto-section">
+            <div class="contacto-formulario">
+                <fieldset style="border:5px groove #018dff;">
+                    <legend><h1><u>Contacto</u></h1></legend>
+                    <form name="alumnos_dam" method="post" action="jdelaluna25@gmail.com" enctype="multipart/form-data">
+                        <fieldset style="border:5px groove #018dff; background-color: rgba(105, 199, 255, 0.3);">
+                            <legend>Datos Personales</legend>
+                                <br>
+                                <label>Nombre: <input type="text" name="nombre" placeholder="Introduce tu nombre" required>
+                                <br>
+                                <br>
+                                <label>Apellidos: <input type="text" name="apellidos" placeholder="Introduce tus apellidos" required>
+                                <br>
+                                <br>
+                        <fieldset style="border:5px groove #018dff; background-color: rgba(105, 199, 255, 0.5);">
+                            <legend>Dirección Postal:</legend>
+                                <br>
+                                <label>Calle: <input type="text" name="calle" placeholder="ej. Calle">  Número: <input type="number" name="numero" placeholder="ej. 123">
+                                <br>
+                                <br>
+                                <Label>Código Postal<input type="text" name="codigo postal" placeholder="ej. 28823"> <label> Ciudad: <input type="text" name="ciudad" placeholder="ej. Madrid">
+                        </fieldset>
+                                <br>
+                                <label>DNI: <input type="text" name="dni" placeholder="DNI">
+                                <br>
+                                <br>
+                                <label>Correo Electrónico:<input type="text" name="email" placeholder="Correo electrónico" required>
+                                <br>
+                        </fieldset>
+                                <br>
+                        <fieldset style="border:5px groove #018dff; background-color: rgba(105, 199, 255, 0.3);">
+                            <legend>Sexo</legend>
+                                <input type="checkbox" name="sexo" value="H" placeholder="Hombre/Mujer">Hombre
+                                <input type="checkbox" name="sexo" value="M" placeholder="Hombre/Mujer">Mujer
+                        <fieldset style="border:5px groove #018dff; background-color: rgba(105, 199, 255, 0.3);">
+                                <br>
+                                <br>Fecha de Nacimiento:    <input type="date" name="fecha" placeholder="Fecha de Nacimiento">
+                                <br>
+                                <br>
+                        <fieldset style="border:5px groove #018dff; background-color: rgba(105, 199, 255, 0.3);">
+                            <legend>Motivo</legend>Elije una motivo:
+                                <select name="personajes">
+                                    <option value="1">Contacto</option>
+                                    <option value="2">Pregunta</option>
+                                    <option value="3">Oferta de Trabajo</option>
+                                </select>
+                        </fieldset>
+                                <br>
+                                <br>
+                                <label>Caja de comentarios:
+                                <br><textarea name="" id="" cols="100" rows="10" placeholder="Escribe un comentario"></textarea>
+                                <br>
+                                <br><input type="submit" name="enviar"><input type="reset" value="Borrar formulario"><input type="file" name="adjuntar archivo">
+                    </form>
+                </fieldset>
+            </div>         
+        </section>
+    </section>
+</body>
+</html>
